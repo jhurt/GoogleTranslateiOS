@@ -1,0 +1,8 @@
+build/
+GoogleTranslateiOS.xcodeproj/project.xcworkspace/xcuserdata/*
+GoogleTranslateiOS.xcodeproj/xcuserdata/jleehurt.xcuserdatad/*
+GoogleTranslateiOS.xcodeproj/project.xcworkspace/xcuserdata/
+GoogleTranslateiOS.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+**/*.pbxuser
+.DS_Store
+

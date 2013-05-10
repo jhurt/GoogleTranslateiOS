@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE0D4C70173CAECE00D5E93D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D4C6F173CAECE00D5E93D /* UIKit.framework */; };
+		FE0D4C72173CAECE00D5E93D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D4C71173CAECE00D5E93D /* Foundation.framework */; };
+		FE0D4C74173CAECE00D5E93D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D4C73173CAECE00D5E93D /* CoreGraphics.framework */; };
+		FE0D4C7A173CAECE00D5E93D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE0D4C78173CAECE00D5E93D /* InfoPlist.strings */; };
+		FE0D4C7C173CAECE00D5E93D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D4C7B173CAECE00D5E93D /* main.m */; };
+		FE0D4C80173CAECE00D5E93D /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D4C7F173CAECE00D5E93D /* EBAppDelegate.m */; };
+		FE0D4C82173CAECE00D5E93D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0D4C81173CAECE00D5E93D /* Default.png */; };
+		FE0D4C84173CAECE00D5E93D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0D4C83173CAECE00D5E93D /* Default@2x.png */; };
+		FE0D4C86173CAECE00D5E93D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0D4C85173CAECE00D5E93D /* Default-568h@2x.png */; };
+		FE0D4C89173CAECE00D5E93D /* EBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D4C88173CAECE00D5E93D /* EBViewController.m */; };
+		FE0D4C8C173CAECE00D5E93D /* EBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0D4C8A173CAECE00D5E93D /* EBViewController_iPhone.xib */; };
+		FE0D4C97173CAF0B00D5E93D /* EBTranslateController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D4C96173CAF0B00D5E93D /* EBTranslateController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE0D4C6B173CAECE00D5E93D /* GoogleTranslateiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleTranslateiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE0D4C6F173CAECE00D5E93D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE0D4C71173CAECE00D5E93D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE0D4C73173CAECE00D5E93D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE0D4C77173CAECE00D5E93D /* GoogleTranslateiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleTranslateiOS-Info.plist"; sourceTree = "<group>"; };
+		FE0D4C79173CAECE00D5E93D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE0D4C7B173CAECE00D5E93D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE0D4C7D173CAECE00D5E93D /* GoogleTranslateiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleTranslateiOS-Prefix.pch"; sourceTree = "<group>"; };
+		FE0D4C7E173CAECE00D5E93D /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		FE0D4C7F173CAECE00D5E93D /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		FE0D4C81173CAECE00D5E93D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FE0D4C83173CAECE00D5E93D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FE0D4C85173CAECE00D5E93D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE0D4C87173CAECE00D5E93D /* EBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBViewController.h; sourceTree = "<group>"; };
+		FE0D4C88173CAECE00D5E93D /* EBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBViewController.m; sourceTree = "<group>"; };
+		FE0D4C8B173CAECE00D5E93D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EBViewController_iPhone.xib; sourceTree = "<group>"; };
+		FE0D4C95173CAF0B00D5E93D /* EBTranslateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTranslateController.h; sourceTree = "<group>"; };
+		FE0D4C96173CAF0B00D5E93D /* EBTranslateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTranslateController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE0D4C68173CAECE00D5E93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D4C70173CAECE00D5E93D /* UIKit.framework in Frameworks */,
+				FE0D4C72173CAECE00D5E93D /* Foundation.framework in Frameworks */,
+				FE0D4C74173CAECE00D5E93D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE0D4C60173CAECE00D5E93D = {
+			isa = PBXGroup;
+			children = (
+				FE0D4C75173CAECE00D5E93D /* GoogleTranslateiOS */,
+				FE0D4C6E173CAECE00D5E93D /* Frameworks */,
+				FE0D4C6C173CAECE00D5E93D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0D4C6C173CAECE00D5E93D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D4C6B173CAECE00D5E93D /* GoogleTranslateiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE0D4C6E173CAECE00D5E93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D4C6F173CAECE00D5E93D /* UIKit.framework */,
+				FE0D4C71173CAECE00D5E93D /* Foundation.framework */,
+				FE0D4C73173CAECE00D5E93D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE0D4C75173CAECE00D5E93D /* GoogleTranslateiOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D4C7E173CAECE00D5E93D /* EBAppDelegate.h */,
+				FE0D4C7F173CAECE00D5E93D /* EBAppDelegate.m */,
+				FE0D4C95173CAF0B00D5E93D /* EBTranslateController.h */,
+				FE0D4C96173CAF0B00D5E93D /* EBTranslateController.m */,
+				FE0D4C87173CAECE00D5E93D /* EBViewController.h */,
+				FE0D4C88173CAECE00D5E93D /* EBViewController.m */,
+				FE0D4C8A173CAECE00D5E93D /* EBViewController_iPhone.xib */,
+				FE0D4C76173CAECE00D5E93D /* Supporting Files */,
+			);
+			path = GoogleTranslateiOS;
+			sourceTree = "<group>";
+		};
+		FE0D4C76173CAECE00D5E93D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D4C77173CAECE00D5E93D /* GoogleTranslateiOS-Info.plist */,
+				FE0D4C78173CAECE00D5E93D /* InfoPlist.strings */,
+				FE0D4C7B173CAECE00D5E93D /* main.m */,
+				FE0D4C7D173CAECE00D5E93D /* GoogleTranslateiOS-Prefix.pch */,
+				FE0D4C81173CAECE00D5E93D /* Default.png */,
+				FE0D4C83173CAECE00D5E93D /* Default@2x.png */,
+				FE0D4C85173CAECE00D5E93D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE0D4C6A173CAECE00D5E93D /* GoogleTranslateiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0D4C92173CAECE00D5E93D /* Build configuration list for PBXNativeTarget "GoogleTranslateiOS" */;
+			buildPhases = (
+				FE0D4C67173CAECE00D5E93D /* Sources */,
+				FE0D4C68173CAECE00D5E93D /* Frameworks */,
+				FE0D4C69173CAECE00D5E93D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleTranslateiOS;
+			productName = GoogleTranslateiOS;
+			productReference = FE0D4C6B173CAECE00D5E93D /* GoogleTranslateiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE0D4C62173CAECE00D5E93D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = 8byte8;
+			};
+			buildConfigurationList = FE0D4C65173CAECE00D5E93D /* Build configuration list for PBXProject "GoogleTranslateiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE0D4C60173CAECE00D5E93D;
+			productRefGroup = FE0D4C6C173CAECE00D5E93D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE0D4C6A173CAECE00D5E93D /* GoogleTranslateiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE0D4C69173CAECE00D5E93D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D4C7A173CAECE00D5E93D /* InfoPlist.strings in Resources */,
+				FE0D4C82173CAECE00D5E93D /* Default.png in Resources */,
+				FE0D4C84173CAECE00D5E93D /* Default@2x.png in Resources */,
+				FE0D4C86173CAECE00D5E93D /* Default-568h@2x.png in Resources */,
+				FE0D4C8C173CAECE00D5E93D /* EBViewController_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE0D4C67173CAECE00D5E93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0D4C7C173CAECE00D5E93D /* main.m in Sources */,
+				FE0D4C80173CAECE00D5E93D /* EBAppDelegate.m in Sources */,
+				FE0D4C89173CAECE00D5E93D /* EBViewController.m in Sources */,
+				FE0D4C97173CAF0B00D5E93D /* EBTranslateController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE0D4C78173CAECE00D5E93D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0D4C79173CAECE00D5E93D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE0D4C8A173CAECE00D5E93D /* EBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE0D4C8B173CAECE00D5E93D /* en */,
+			);
+			name = EBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE0D4C90173CAECE00D5E93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE0D4C91173CAECE00D5E93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE0D4C93173CAECE00D5E93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslateiOS/GoogleTranslateiOS-Prefix.pch";
+				INFOPLIST_FILE = "GoogleTranslateiOS/GoogleTranslateiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE0D4C94173CAECE00D5E93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleTranslateiOS/GoogleTranslateiOS-Prefix.pch";
+				INFOPLIST_FILE = "GoogleTranslateiOS/GoogleTranslateiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE0D4C65173CAECE00D5E93D /* Build configuration list for PBXProject "GoogleTranslateiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D4C90173CAECE00D5E93D /* Debug */,
+				FE0D4C91173CAECE00D5E93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0D4C92173CAECE00D5E93D /* Build configuration list for PBXNativeTarget "GoogleTranslateiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0D4C93173CAECE00D5E93D /* Debug */,
+				FE0D4C94173CAECE00D5E93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE0D4C62173CAECE00D5E93D /* Project object */;
+}
