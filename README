@@ -1,0 +1,8 @@
+use a UIWebView to inject JavaScript into translate.google.com for string translation
+This is for demonstration purposes only and should not be used in production code.
+
+check GoogleTranslateiOS/EBViewController.m for example usage.
+
+Licensed under the BSD license, check LICENSE.txt for details.
+
+
