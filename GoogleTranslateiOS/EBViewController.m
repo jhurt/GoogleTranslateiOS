@@ -61,7 +61,7 @@
     _sentencesToTranslate = [NSMutableArray arrayWithArray:[_inputTextView.text componentsSeparatedByString:@"."]];
     _translation = [[NSMutableString alloc] init];
     [self translate];
-    _outputLabel.text = _translation;
+    _outputLabel.text = @"";
     [_inputTextView resignFirstResponder];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 }
